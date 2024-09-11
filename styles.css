@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    color: #F0F0F6;
+    font-family: "Mukta", sans-serif;
+}
+
+body{
+    background-color: #1B1E25;
+    margin: 0;
+    padding: 0;
+}
+
+.sessao1{
+    background-color: #20242c;
+    display: flex;
+    height: 500px;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.fundo{
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 0.4; 
+}
+
+.textarea{
+    margin-left: 15px ;
+}
+
+.textarea h1{
+    margin-left: 15px ;
+    font-size: 160px;
+}
+
+.textarea h2{
+    margin-left: 55px ;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.textarea a{
+    font-size: 20px;
+    color: #F0F0F6;
+    margin-left: 55px ;
+    text-decoration: none;
+    border: 2px solid #F0F0F6;
+    padding: 10px;
+}
+
+.textarea a:hover{
+    transition: 0.5s;
+    color: #fc4436;
+    margin-left: 55px ;
+    text-decoration: none;
+    border: 2px solid #fc4436;
+    padding: 10px;
+}
+
+.sessao2{
+    background-color: #20242c;
+    height: 500px;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+.sessao2 h2{
+    margin: 50px;
+    padding-top: 30px;
+}
+
+.organizar{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.item{
+    width: 400px;
+    margin-top:30px;
+}
+
+.item img{
+    width: 200px;
+    height: 150px;
+}
+
+.item p{
+    margin-top: 50px;
+    font-size: 20px;
+    font-size: 25px;
+}
